@@ -17,4 +17,10 @@ $( document ).ready(function() {
         });
       } );
 
+      $(".razon3").on( "click", function() {
+        $(".razon3").slideToggle(1000, function(){
+             $(".razon4").slideToggle(1000)
+        });
+      } );
+
 });
