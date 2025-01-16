@@ -9,7 +9,6 @@ body {
   align-items: center;
   min-height: 100vh;
   background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
-  overflow: hidden;
 }
 
 .stars {
@@ -399,7 +398,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-y: scroll;
 }
 .index {
   z-index: 99999999;
@@ -411,13 +409,13 @@ body {
   cursor: pointer;
 }
 .infoMain h1 {
-  font-size: 60px;
+  font-size: 2.5em;
 }
 .razon1, .razon2, .razon3{
     display: none;
 }
 .razon1 h1, .razon2 h1, .razon3 h1{
-  font-size: 60px;
+  font-size: 2.5em;
 }
 .razon1 h2, .razon2 h2, .razon3 h2{
     width: 80%;
