@@ -399,7 +399,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 .index {
   z-index: 99999999;
@@ -413,13 +413,13 @@ body {
 .infoMain h1 {
   font-size: 60px;
 }
-.razon1{
+.razon1, .razon2, .razon3{
     display: none;
 }
-.razon1 h1 {
+.razon1 h1, .razon2 h1, .razon3 h1{
   font-size: 60px;
 }
-.razon1 h2{
+.razon1 h2, .razon2 h2, .razon3 h2{
     width: 80%;
     margin-left: 10%;
     margin-bottom: 20px;
@@ -430,10 +430,10 @@ body {
     align-items: center;
     justify-content: center;
 }
-.razon1 .img1{
-    width: 500px;
+.img1{
+    width: 100%;
     height: auto;
 }
-.razon1:hover {
+.razon1:hover, .razon2:hover , .razon3:hover{
     cursor: pointer;
-  }
+}
