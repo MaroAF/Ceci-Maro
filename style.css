@@ -411,13 +411,13 @@ body {
 .infoMain h1 {
   font-size: 2.5em;
 }
-.razon1, .razon2, .razon3{
+.razon1, .razon2, .razon3, .razon4{
     display: none;
 }
-.razon1 h1, .razon2 h1, .razon3 h1{
+.razon1 h1, .razon2 h1, .razon3 h1, .razon4 h1{
   font-size: 2.5em;
 }
-.razon1 h2, .razon2 h2, .razon3 h2{
+.razon1 h2, .razon2 h2, .razon3 h2, .razon4 h2{
     width: 80%;
     margin-left: 10%;
     margin-bottom: 20px;
