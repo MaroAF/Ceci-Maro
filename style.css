@@ -431,6 +431,7 @@ body {
 .img1{
     width: 100%;
     height: auto;
+    margin: 5px;
 }
 .razon1:hover, .razon2:hover , .razon3:hover{
     cursor: pointer;
